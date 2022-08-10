@@ -1,0 +1,8 @@
+name: s3 sync
+on: [push]
+jobs:
+  subhan:
+    runs-on: ubuntu-latest
+    steps:
+     - name: hello
+       run: echo "this is basit"
